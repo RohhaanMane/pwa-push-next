@@ -46,14 +46,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 95px;
-    height: 102.2px;
-    /* border: 1px solid rgba(100, 52, 206, 1); */
-    border-radius: 50%;
-    /* background-color: #493182;
-    box-shadow: 0 0 0 14px rgba(201, 178, 255, 1) blur(100px) spread(0px); */
-    /* background-image: url('/bell.png'); */
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    transform:  translate(-50%, -50%);
+    width: 115px;
+    height: 125.2px;
 }

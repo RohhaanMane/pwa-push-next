@@ -1,0 +1,59 @@
+.bellContainer{
+    position: relative;
+    height: 392px;
+    width: 392px;
+    margin-top: 49px;
+}
+
+.ring {
+    position: absolute;
+    width: 392px;
+    height: 392px;
+    border-radius: 50%;
+    /* border: 14px solid transparent; */
+
+}
+
+.ring1{
+    z-index: 1;
+    background: linear-gradient(rgba(25, 14, 52, 0.4),  rgba(25, 14, 52, 0));
+    border: 14px solid inset(0, 0, 0, 10px, linear-gradient(rgba(73, 49, 130, 0.2), rgba(73, 49, 130, 0)));
+    
+}
+
+.ring2{
+    z-index: 2;
+    background-color: rgba(25, 14, 52, 0.4);
+    border: 2px solid rgba(73, 49, 130, 0.4);
+    transform: scale(0.8);
+}
+
+.ring3{
+    z-index: 3;
+
+    border: 1px solid rgba(100, 77, 154, 1);
+    transform: scale(0.6);
+}
+
+.ring4{
+    z-index: 4;
+    transform: scale(0.4);
+    background-color: rgba(47, 26, 97, 0.6);
+}
+
+.bell{
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95px;
+    height: 102.2px;
+    /* border: 1px solid rgba(100, 52, 206, 1); */
+    border-radius: 50%;
+    /* background-color: #493182;
+    box-shadow: 0 0 0 14px rgba(201, 178, 255, 1) blur(100px) spread(0px); */
+    /* background-image: url('/bell.png'); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
